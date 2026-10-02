@@ -6,9 +6,6 @@
 	<type name="Jmc_Keycard2">
 		<damage min="0.0" max="0.0"/>
 	</type>
-	<type name="Jmc_Keycard3">
-		<damage min="0.0" max="0.0"/>
-	</type>
 	<type name="STAG_PunchedCard">
 		<damage min="0.0" max="0.0"/>
 	</type>
@@ -126,9 +123,6 @@
 			<item name="Mag_SVD_10Rnd"/>
 		</cargo>
 		<cargo chance="0.2">
-			<item name="Mag_FAL_10Rnd"/>
-		</cargo>
-		<cargo chance="0.2">
 			<item name="Mag_STANAG_60Rnd"/>
 		</cargo>
 		<cargo chance="0.2">
@@ -173,12 +167,6 @@
 	</type>
 	<type name="StarlightOptic">
 		<damage min="0.0" max="0.32"/>
-	</type>
-	<type name="AugOptic">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="SSG82Optic">
-		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="MK4Optic_Black">
 		<damage min="0.0" max="0.0" />
@@ -298,9 +286,6 @@
 		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="Ammo_40mm_Explosive">
-		<damage min="0.0" max="0.35"/>
-	</type>
-	<type name="Ammo_40mm_POX">
 		<damage min="0.0" max="0.35"/>
 	</type>
 	<type name="AssaultBag_Ttsko">
@@ -3939,9 +3924,6 @@
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.30"/>
 		</attachments>
-		<cargo chance="0.10">
-			<item name="JerryCan" chance="1.0"/>
-		</cargo>
 	</type>
 	<type name="CivilianSedan">
 		<attachments chance="1.00">
@@ -5017,9 +4999,7 @@
 
 	<type name="ttbar">
 		<attachments chance="0.3">
-			<item name="Mag_VAL_10Rnd" chance="1.00"/>
-			<item name="Mag_VSS_20Rnd" chance="0.80"/>
-			<item name="Mag_Vikhr_30Rnd" chance="0.30"/>
+			<item name="Mag_FAL_20Rnd" chance="0.30"/>
 		</attachments>
 	</type>
 	<type name="ttr700">
