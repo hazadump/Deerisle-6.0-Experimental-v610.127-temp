@@ -284,7 +284,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>1</active>
+		<active>0</active>
 		<children>
 			<child lootmax="6" lootmin="0" max="0" min="100" type="ZmbM_Santa"/>
 		</children>
