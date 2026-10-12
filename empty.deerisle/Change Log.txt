@@ -1,0 +1,856 @@
+=======================================================================================
+======= [ DeerIsle Mission files alternative assembly by HaZADUM              ] =======
+======= [ More info in JMC Official Discored channel                          ] =======
+======= [ https://discord.com/channels/529706632003977226/1309540997415567428 ] =======
+=======================================================================================
+
+
+
+
+
+
+
+Date 12.10.2026 
+## version 610.127
+Release notes:
+This update based on Mission files Deerisle Exp 6.1 August Update 2
+
+##========================================[ cfgeconomycore.xml ]========================================##
+added
+		<rootclass name="MotorbikeScript" act="car" reportMemoryLOD="no" /> <!-- Motorbike -->
+		<rootclass name="HouseDestructible" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+
+
+
+##========================================[ cfggameplay.json ]========================================##
+
+added
+		"canDetachAttachedCarWheels": true,
+		"canDamageAttachedCarWheels": true,
+		"canDetachAttachedBikeWheels": true,
+		"canDamageAttachedBikeWheels": true
+
+##========================================[ events.xml ]========================================##
+added
+
+VehicleMotorbike - Badlands 1.29
+
+InfectedTemple - JMC
+InfectedArmyDesert - Badlands 1.29
+
+ZmbM_Gamedev_Black - Sakhal 1.27
+ZmbM_Gamedev_Blue - Sakha 1.27
+ZmbM_Gamedev_Gray - Sakhal 1.27
+
+
+##========================================[ types.xml, types_di.xml ]========================================##
+added
+Land_STAG_Submarine_Dark
+STAG_Clothing_BallisticHelmet_PT
+
+
+BrassKnuckles_MenAtArms
+HoloOptic
+
+Land_Wreck_Offroad02_Aban1_TK_DE
+Land_Wreck_Offroad02_Aban2_TK_DE
+Land_Wreck_Offroad02_Medic_TK_DE
+
+
+Glock19_Tan
+CZ527_desert
+CZ527_winter
+Mosin9130_Winter
+Mosin9130_Desert
+Mosin9130_Woodland
+
+
+
+Mag_SCARH_20Rnd
+Mag_SCARH_20Rnd_Black
+
+MilitaryCap_BDU
+MilitaryCap_Desert
+MilitaryCap_Woodland
+
+MorsecodeLeaflet_blood
+MorsecodeLeaflet_coffee
+MorsecodeLeaflet_fire
+
+PlateCarrierHolster_Desert
+PlateCarrierPouches_Desert
+PlateCarrierVest_Desert
+SCARH
+SCARH_Black
+SCAR_PrecisionBttstck
+SCAR_PrecisionBttstck_Black
+SCAR_StockBttstck
+SCAR_StockBttstck_Black
+
+StaticObj_Wreck_MTVR_Cargo_DE
+StaticObj_Wreck_Stryker_DE
+
+T56TankerHelmet_Olive
+T56TankerHelmet_Tan
+TortillaBag_Desert
+
+ZmbF_usSoldier_Heavy_Desert
+ZmbF_usSoldier_normal_Desert
+
+Motorbike_01_Blue
+Motorbike_01_Red
+Motorbike_01_Wheel_1
+Motorbike_01_Wheel_1_Ruined
+Motorbike_01_Wheel_2
+Motorbike_01_Wheel_2_Ruined
+Motorbike_01_Yellow
+Motorbike_02_Blue
+Motorbike_02_Green
+Motorbike_02_Red
+Motorbike_02_ShieldFront_Blue
+Motorbike_02_ShieldFront_Green
+Motorbike_02_ShieldFront_Red
+Motorbike_02_ShieldFront_Yellow
+Motorbike_02_ShieldLeft_Blue
+Motorbike_02_ShieldLeft_Green
+Motorbike_02_ShieldLeft_Red
+Motorbike_02_ShieldLeft_Yellow
+Motorbike_02_ShieldRight_Blue
+Motorbike_02_ShieldRight_Green
+Motorbike_02_ShieldRight_Red
+Motorbike_02_ShieldRight_Yellow
+Motorbike_02_Wheel_1
+Motorbike_02_Wheel_1_Ruined
+Motorbike_02_Wheel_2
+Motorbike_02_Wheel_2_Ruined
+Motorbike_02_Yellow
+
+
+JMC_Key_Blue
+JMC_Key_Orange
+JMC_Key_Yellow
+JMC_Key_Red
+jmc_pcm_device_0
+jmc_pcm_device_2
+jmc_pcm_device_3
+STAG_PunchedCard_Level0
+STAG_PunchedCard_Level2
+STAG_PunchedCard_Level3
+
+JMC_EG_Shirt_0
+JMC_EG_Shirt_1
+JMC_EG_Shirt_2
+JMC_EG_Shirt_3
+
+InfectedSoldierHardJMC2
+InfectedSoldierHardJMCTemp1
+InfectedSoldierHardJMCTemp2
+InfectedSoldierHardJMCTemp3
+
+
+jmc_SnowOwl_Black
+jmc_SnowOwl_Mag_20Rnd
+
+jmc_Prototype_Mag_20Rnd
+
+fix class name jmc_Prototype_Optic_Back shoult be <type name="jmc_Prototype_Optic_Black">
+	            
+jmc_Prototype_Black
+
+Ammo_HuntingBoltExplosive
+STAG_Crossbow
+
+fix class name Static_FrozenScientist_DE shoult be  <type name="StaticObj_FrozenScientist_DE">
+
+
+
+
+
+##========================================[ cfgeventspawn.xml ]========================================##
+
+added
+InfectedTemple
+
+##========================================[ cfggameplay.json ]========================================##
+
+edit param
+"disablePersonalLight": true
+"lightingConfig": 3
+
+
+##========================================[ cfgplayerspawnpoints.xml ]========================================##
+added strings
+      <!-- Spawning on a platform over water -->
+      <allow_in_water>true</allow_in_water>
+
+##========================================[ cfgrandompresets.xml ]========================================##
+
+
+added to STAG_Clothing cargo  - "STAG_RepairKit"
+added cargo "STAG_Temple"
+##========================================[ cfgspawnabletypes.xml ]========================================##
+removed 
+JMC_KEYCARD3
+augoptic
+ssg82optic
+Mag_FAL_10Rnd
+Ammo_40mm_POX
+
+fixed attachments
+ttbar - Mag_FAL_20Rnd
+
+added 
+
+
+Motorbike_01_Blue
+Motorbike_01_Red
+Motorbike_01_Yellow
+Motorbike_02_Blue
+Motorbike_02_Green
+Motorbike_02_Red
+Motorbike_02_Yellow
+
+
+attachments  PlateCarrierVest
+remove dup 	<type name="junkak">
+
+added 
+InfectedSoldierHardJMCTemp1
+InfectedSoldierHardJMCTemp2
+InfectedSoldierHardJMCTemp3
+
+ZmbF_usSoldier_Heavy_Desert
+ZmbF_usSoldier_normal_Desert
+
+jmc_SnowOwl_Black + jmc_SnowOwl_Mag_20Rnd
+
+jmc_Prototype_Black + jmc_Prototype_Mag_20Rnd + jmc_Prototype_Optic_Back
+
+##========================================[ zombie_territories.xml ]========================================##
+
+This file has bin refubrished as BI standart....
+
+added 
+InfectedFirefighter 6301 x 15486
+
+
+
+##========================================[ Mapgroupproto.xml ]========================================##
+added
+
+Land_Wreck_Offroad02_Aban1_TK_DE
+Land_Wreck_Offroad02_Aban2_TK_DE
+Land_Wreck_Offroad02_Medic_TK_DE
+
+StaticObj_Wreck_MTVR_Cargo_DE
+StaticObj_Wreck_Stryker_DE
+
+
+Land_Sara_zluty_statek_in
+remove point <!-- <point pos="2.039331 3.219991 -2.324466" range="0.5" height="1.5"/> -->
+
+
+##========================================[ Mapgrouppos.xml ]========================================##
+remove  
+    <group name="Land_jmc_militarycase_o_05" pos="186.519043 54.100880 1657.157715" rpy="-0.000000 0.000000 164.753983" a="-74.753990" />
+
+
+##========================================[       .:End:.       ]========================================##
+
+
+
+Date 15.01.2026 
+## version 600.126a
+Release notes:
+Changes have been made based on the DayZ sakhal map 1.28 update.
+The first release for the map is version 6.0
+
+
+Date 24.12.2025 version 125
+Release notes:
+
+-----------------types.xml-----------------
+add 
+XmasBaseballBat
+
+-----------------cfgrandompresets.xml-----------------
+add to xmas gift
+PSO11Optic
+PSO6Optic
+PM73Rak
+
+
+-----------------mapgroupproto.xml-----------------
+create new loot pos
+
+A2PR_LHD_H1
+A2PR_LHD_H2
+
+
+-----------------mapgrouppos.xml-----------------
+add 
+A2PR_LHD_H1
+A2PR_LHD_H2
+
+
+Date 04.09.2025 version 1.24
+-----------------mapgrouppos.xml-----------------
+add
+Land_Pier_Crane_Submarine
+Land_dum_rasovna
+Land_Sara_stodola
+Land_Sara_stodola2
+Land_Hotel_riviera1
+
+delete loot pos unavailable to players
+<group name="Land_DieselPowerPlant_Tank_Big" pos="4767.433105 33.970646 7099.443848" rpy="-0.000000 0.000000 37.385464" a="52.614529" />
+<group name="Land_DieselPowerPlant_Tank_Big" pos="4739.893555 33.940079 7154.824219" rpy="-0.000000 0.000000 37.385464" a="52.614529" />
+
+-----------------mapgroupproto.xml-----------------
+add 
+Land_Pier_Crane_Submarine, thx Ch0rshhh
+Land_dum_rasovna
+Land_Sara_stodola
+Land_Sara_stodola2
+Land_Hotel_riviera1
+
+add proxy loot for StaticBoatFishing "fishing loot"
+
+-----------------cfgEffectArea.json-----------------
+add SpookyArea23 to "Ice Lake" Pos 12848, 12958 (exp test)
+
+-----------------types.xml-----------------
+add 
+Armband_Sakhal
+
+Attack2Bag_Black
+Attack2Bag_Green
+Attack2Bag_Ttsko
+Attack2Bag_Yeger
+
+ColdOperationBoots_Camo
+ColdOperationBoots_Green
+ColdOperationBoots_Grey
+
+Flag_Sakhal
+GulagJacket_Grey
+
+Headdress_Bear
+Headdress_Fox
+
+MilitarySweater_Chernarus
+MilitarySweater_Livonia
+MilitarySweater_NoPatch
+
+PilotJacket_Black
+PilotJacket_Brown
+PilotJacket_Yellow
+
+TraditionalBoots_Beige
+TraditionalBoots_DarkBrown
+
+WinterMilitaryCoat_Brown
+WinterMilitaryCoat_DarkGrey
+WinterMilitaryCoat_Grey
+
+-----------------cfgspawnabletypes.xml-----------------
+
+Replace "cargo" to "attachments"  on 
+AirborneMask
+GP5GasMask
+
+add
+PilotJacket_Brown
+PilotJacket_Black
+PilotJacket_Yellow
+
+WinterMilitaryCoat_Brown
+WinterMilitaryCoat_Grey
+WinterMilitaryCoat_DarkGrey
+
+MilitarySweater_Livonia
+MilitarySweater_Chernarus
+MilitarySweater_NoPatch
+
+
+
+Date 10.06.2025 version 1.23a
+-----------------mapgroupproto.xml-----------------
+add Land_Boat_Small9_DE
+-----------------events.xml-----------------
+add "StaticAmbulance, StaticBoatFishing, StaticBoatMilitary, StaticMiscTirePileBurning"
+-----------------cfgeventspawns.xml-----------------
+
+add spawn points for event "StaticAmbulance, StaticBoatFishing, StaticBoatMilitary, StaticMiscTirePileBurning" from Sakhal v1.28 thx "Antoine" for adaptation
+
+-----------------cfgEffectArea.json-----------------
+dayz v1.28, removed lines no longer required. thx "Kwin222"
+
+-----------------types_jmc.xml-----------------
+add to spawn shotgun "boomstick"
+disable spawn ttp90_Tan (wrong textures)
+
+-----------------mapgrouppos.xml-----------------
+delete loot pos unavailable to players
+<group name="Land_jmc_lab_patienttable" pos="254.655029 2.250000 1856.469849" rpy="-0.000000 0.000000 0.000000" a="90.000000" />
+
+
+Date 03.06.2025 version 1.23
+
+-----------------events.xml-----------------
+Remove Crab spawn... because version of map 6.0c doesn't have them.
+
+-----------------cfggameplay.json-----------------
+upd to 	"version": 123
+added  "WeaponObstructionData"
+
+-----------------cfgspawnabletypes.xml-----------------
+added 
+R12
+MK4Optic_Black
+SportingOptic
+PM73Rak
+Mag_PM73_15Rnd
+Mag_PM73_25Rnd
+
+-----------------mapgroupproto.xml-----------------
+added 
+Land_Wreck_S1023_Medic_Beige_DE 
+StaticObj_PatrolBoat_Military_DE
+Misc_TirePile_Burning_DE
+-----------------types.xml-----------------
+added from dayz 1.28exp
+
+FireplaceFireBarrel
+Land_Boat_Small9_DE
+Land_Wreck_S1023_Medic_Beige_DE
+LeafCrown_Autumn
+LeafCrown_Spring
+LeafCrown_Summer
+LeafCrown_Winter
+MK4Optic_Black
+MK4Optic_Green
+MK4Optic_Tan
+Mag_PM73_15Rnd
+Mag_PM73_25Rnd
+PM73Rak
+R12
+PSO6Optic
+SportingOptic
+StaticObj_PatrolBoat_Military_DE
+Misc_TirePile_Burning_DE
+
+-----------------cfgeventgroups.xml-----------------
+Fix obj pos on Camp_01 (Bag, box...), add POT to stove chance 0.15 
+
+
+
+Date 02.03.2025 version 1.22d
+
+Winter soldiers and hunters are now equipped according to the season. Winter helmets backpacks hard hats vests ... They appear mainly on winter Zeds
+-----------------cfgrandompresets.xml-----------------
+add new sets
+vestsHunterWinter
+vestsArmyWinter
+bagsArmyWinter
+HeavyArmorArmyWinter
+HeavyHelmetArmyWinter
+-----------------cfgspawnabletypes.xml-----------------
+edit zeds
+ZmbM_PatrolNormal_Winter 
+ZmbM_eastSoldier_Heavy_Navy
+ZmbM_HunterOld_Winter
+
+Date 02.03.2025 version 1.22c
+-----------------events.xml-----------------
+add ZmbM_eastSoldier_Heavy_Navy thx Eagle....I'm waiting for the 6.0 update and missions from the map creator. for further deployment in the Arctic
+
+
+-----------------types.xml-----------------
+add FoxSteakMeat from sakhal 1.27 thx Eagle
+
+-----------------cfgeventspawns.xml-----------------
+Airplane Crate pos fix...thx to Mortira
+<pos x="8724.234" z="4715.864" a="0"/>  Moved to  <pos x="8687.414063" z="4700.145996" a="0"/> <!-- HaZ-->
+
+Date 24.02.2025 version 1.22
+-----------------mapgroupproto.xml-----------------
+add loot pos Land_Tower_TC4_Mid, Land_Tower_TC4_Top
+
+-----------------mapgrouppos.xml-----------------
+create new file (removed loot spawn in places where the player cannot reach it.)
+
+-----------------cfgeventspawns.xml-----------------
+Added helicopter crashes to arctic island (coordinates are normalized)
+2 Events cross : Convoy 3 across Wreck_Mi8_Crashed
+<pos x="12279.69" z="7707.734" a="0" />  moved to  <pos x="12529.085938" z="7589.878906" a=" 2.412593" /> 
+
+
+-----------------cfgeventgroups.xml-----------------
+Fix obj pos on Convoy 3,  Convoy 8, Convoy 4, Convoy 7...
+
+
+Date 18.02.2025 version 1.21a
+-----------------cfgrandompresets.xml-----------------
+OKZKCap_Beige, OKZKCap_Green edit to chance 0.05
+
+-----------------events.xml-----------------
+Return to spawn Crab... Thx RetroMaja
+
+-----------------mapgrouppos.xml-----------------
+create new file (removed loot spawn in places where the player cannot reach it.)
+-----------------mapgroupproto.xml-----------------
+Create brand new loot point pos on Land_Tower_TC3_Red, Land_Tower_TC3_Grey
+Create brand new loot point pos on Land_Tovarna1 
+Fix loot pos on  Land_Mil_Fortified_Nest_Watchtower (Loot won't spawn underground now.)
+-----------------cfgeventgroups.xml-----------------
+Fix V3S position on Convoy5 Event
+
+
+Date 29.01.2025 version 1.20
+
+-----------------mapgrouppos.xml-----------------
+create new file
+
+-----------------cfgeventspawns.xml-----------------
+New location map for spawn Vehicle М1025
+
+Date 24.01.2025 version 1.19
+
+-----------------types.xml-----------------
+added from 1.27  exp version
+
+ShippingContainerKeys_Blue
+ShippingContainerKeys_Orange
+ShippingContainerKeys_Red
+ShippingContainerKeys_Yellow
+
+Land_ContainerLocked_Blue_DE
+Land_ContainerLocked_Orange_DE
+Land_ContainerLocked_Red_DE
+Land_ContainerLocked_Yellow_DE
+
+-----------------events.xml-----------------
+StaticContainerLocked
+
+-----------------cfgeventspawns.xml-----------------
+StaticContainerLocked
+
+-----------------mapgroupproto.xml-----------------
+added and updated from 1.27  exp version
+Land_Geoplant_MaintenanceHall
+Land_ContainerLocked_Orange_DE
+Land_ContainerLocked_Red_DE
+Land_ContainerLocked_Yellow_DE
+Land_ContainerLocked_Blue_DE
+Land_Bunker3_2
+Land_Bunker3_1
+static_mi8_civilian
+Land_Wreck_Mi8_Civilian
+Land_Geoplant_Corridor_Main
+Land_Geoplant_PowerHall
+Land_Ship_Medium2
+Land_Boat_Small7
+Land_Boat_Small9
+Land_Boat_Small10_Blue
+Land_Boat_Small10_Red
+Land_Airport_Small_Hangar2
+Land_Geoplant_PipeHall
+Land_Geoplant_MainHall_Middle
+Land_House_1W15_Dam_Snow
+Land_House_1W14_Dam_Snow
+Land_House_1W13_Dam_Snow
+Land_House_1W08_Blue
+Land_Container_1Moh_DE
+Land_Airfield_Radar_Tall
+
+Date 22.01.2025 version 1.18
+
+-----------------types.xml-----------------
+add SVD_Wooden from 1.27 exp
+
+-----------------cfgspawnabletypes.xml-----------------
+add SVD_Wooden from 1.27 exp
+
+
+Date 21.01.2025 version 1.17
+-----------------cfgeventgroups.xml-----------------
+My Fix Events
+Fix Convoy9 -  StaticObj_Misc_SupplyBox1_DE  (remove)
+Fix Convoy12
+Fix Police8
+Fix Police10
+
+-----------------mapgroupproto.xml-----------------
+jmc_woodblock - added a position to eliminate the console entry that the object has no points.
+
+
+
+Date 19.01.2025 version 1.16
+
+-----------------zombie_territories.xml-----------------
+add Zeds to all Church
+
+-----------------mapgroupproto.xml-----------------
+add hatchets on stumps with a 15% chance...
+add loot pos to jmc_bag...thx Eagle.... (testing) 
+add loot pos to Land_dum_mesto_in......(testing) 
+
+-----------------events.xml-----------------
+add InfectedMedic to StaticVanAmbulance events
+Disable christmas events "StaticChristmasTree, StaticSantaCrash, Animal_RangiferTarandus_Xmas"
+
+----------------cfgspawnabletypes.xml----------------
+Rename wrong classname "BushlatPoliceJacket" to "BushlatPoliceJacket_Blue" (thx Eagle)
+
+----------------cfgrandompresets.xml----------------
+attachments HeavyArmorArmyJMC removing double string  <item name="PlateCarrierVest" chance="0.1"/>
+
+
+Date 20.12.2024 version 1.15
+
+----------------cfgeventspawns.xml----------------
+in SantaCrash removed all "Y" cord
+
+----------------cfgspawnabletypes.xml----------------
+Update from last BI mission files+enricshed gifts
+
+----------------cfgrandompresets.xml----------------
+Update from last BI mission files
+
+----------------events.xml----------------
+Patrial Update from last Christmas BI mission files
+Add Reindeer Christmas 
+
+----------------types.xml----------------
+Update from last Christmas BI mission files
+add Sweater_ChristmasBlue
+add Sweater_ChristmasGreen
+add Sweater_ChristmasRed
+
+----------------types_jmc.xml----------------
+jmc Polar bear moved From types.xml
+
+
+Date 08.12.2024 version 1.14
+
+----------------mapgroupproto.xml--------------------------
+added loot grid for Land_Ruin_Highway_Pillar1_Garage
+added loot grid for Land_DI_Lighthouse
+added loot grid for Land_Mil_Radar_Mobile1
+added loot grid for Land_Boat_Small8_Blue
+added loot grid for Land_Boat_Small8_Red
+
+----------------mapgrouppos.xml----------------------------
+Create new file for loot spawn in new objects.
+
+
+Date 05.12.2024 version 1.13
+
+----------------mapgroupproto.xml--------------------------
+Update loot grid Land_Pier_Crane_B form sakhal 1.26.1  (loot will spawn in places where a regular player cannot reach)
+added loot grid for Land_A_Minaret_Porto_EP1
+added loot grid for Land_A_Villa_EP1
+
+---------------cfgeventspawns.xml--------------------------
+ItemPlanks remove 1 wrong cord "4385.391, 12025.85"
+
+
+Date 01.12.2024 version 1.12
+Partially applied changes from v5.923
+
+
+---------------zombie_territories.xml------------------------
+Quantity revised for NBC ZMB WHITE
+
+---------------sheep_goat_territories.xml------------------------------
+Remake territory for spawn sheep and goats
+---------------events.xml----------------------------------------------
+Remake spawn method for goat and sheep. Ambient spawn not work properly.
+
+----------------------------------------------------
+Date: 27.11.2024 version 1.11b
+
+No more mushrooms spawn on snow!
+
+--------------cfgspawnabletypes.xml-----------------
+added attachment to avs36
+
+
+Date: 25.11.2024 version 1.11
+--------------types_jmc.xml-------------------------
+added ESP_Scarl attachments
+
+--------------zombie_territories.xml----------------
+Added ZmbM_NBC_WHITE to arctica mobile medlab
+
+
+Date: 24.11.2024 version 1.10
+
+--------------mapgroupproto.xml----------------------
+event group stubs removed
+updated Land_MobileLaboratory from v1.26.1
+
+--------------cfgrandompresets.xml------------------
+actualized presets from v1.26.1
+
+--------------cfgeventspawns.xml--------------------
+added new 2 point for spawn M1025
+Restoring skeleton spawn on crater arround aircrash
+
+--------------cfgeventgroups.xml--------------------
+edit string object jmc_bag_dz
+
+
+--------------cfgspawnabletypes.xml-----------------
+Fixing attachmets for ttscarl, ttscarl_tan
+
+
+
+Date: 23.11.2024 version 1.09
+--------------Types_JMC.xml--------------------------
+Adjust quantity diving stuff
+
+--------------mapgroupproto.xml----------------------
+cancellation of loot spawn, it is impossible for the player to get to the top
+Land_watertower1  Position: <9520.170898, 3.761728, 8022.896973>
+
+Addes loot pos for Land_WF_anti_radar_WEST_ep1
+Addes loot pos for Land_Farm_WaterTower_Small"
+
+Date:22.11.2024 version 1.08
+
+--------------zombie_territories.xml----------------
+Reconstruct and sorted groups 
+add missing zmb Police, Medic, Firefihtes
+-------------cfgspawnabletypes.xml------------------------------------------
+Added cargo ScientificBriefcase from 5.9.22
+
+Date:22.11.2024 version 1.07
+--------------Types.xml--------------------------
+Separated Types.xml to (Types.xml, Types_JMC.xml)
+Added missing loot.
+Lot adjust for tiers
+--------------zombie_territories.xml--------------
+Medic removed from  <zone name="InfectedMedic" smin="0" smax="0" dmin="1" dmax="4" x="9804.74" z="4385.79" r="50"/>
+
+Date:18.11.2024 version 1.06
+--------------mapclusterproto.xml--------------------
+Find errors group...
+
+Date:17.11.2024 version 1.05
+-----------------events.xml--------------------------
+Added  CraterellusMushroom as LactariusMushroom
+
+Date 17.11.2024 version
+------------------hen_territories.xml-----------------
+Alternative chicken spawn points (hen_territories.xml) chickens spawn in chicken coops....need test!
+
+Date:18.11.2024 version 1.03
+--------------mapclusterproto.xml-------------------------------------------
+Recreated mapgroupclusterXX.xml from new mapclusterproto.xml (Cherno+Livonia)!
+There are no more cluster errors in the console.
+```
+23:17:42 [CE][LoadClusters] "Cluster" :: Loading files...
+23:17:42 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+23:17:42 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+23:17:42 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+23:17:42   6361 failed - check prototype defaults 'clusterMatrix' setups !!!
+23:17:43 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 50000 instances
+23:17:43   8741 failed - check prototype defaults 'clusterMatrix' setups !!!
+23:17:43 [CE][LoadClusters] :: file: "mapgroupcluster04", 9 types, 30763 instances
+23:17:43   2609 failed - check prototype defaults 'clusterMatrix' setups !!!
+```
+-------------cfgspawnabletypes.xml------------------------------------------
+Added weapon SV98
+Added weapon attachments for SV98
+Added weapon Vikhr
+Added weapon attachments for  Vikhr
+Added a 30 clip Vikhr for VSS ASVAL
+Added weapon  M14
+Added weapon attachments for M14
+Added PlateCarrierVest_camo
+Added attachments PlateCarrierVest_camo
+Added cargo (ammoPolice, toolsPolice)for BushlatPoliceJacket
+Added cargo (mixVillage) for DownJacket(all colors)
+Reduced the chance of appearance NVG у Mich2001Helmet
+Added a battery to NVG with a chance 20% 
+Added attachments  hooks and jig to Fishing Rod
+Added attachments  hooks and jig to booniehat
+Added attachments  hooks and jig to hunter's vest
+Added attachments cargo in NavyUniformJacket, NavyUniformPants (revolver, derringer, cargo-"ammoCivil")
+Added to the missing ones PlateCarrierVest, AssaultBag, CoyoteBag, TortillaBag, ArmyPouch, ArmyPouch, CanvasBag,SlingBag HipPack, DuffelBag, gorkapants, USMCPants,GorkaEJacket,OMKJacket...etc
+Added cargo to STAG cloath: DryBag....etc
+Added more attachments  AKM, AK74, AKSU, AK101 as SAKHAL
+Added attachments for Agramm2000
+Added attachments for M110 Green, Tan 
+Added attachments for weapon jmc_Prototype, jmc_SnowOwl....
+Old attachments-cargo "glassesArmy"  replaced by "headtorches" (npc now on head torches sometimes)
+Added cargo for ZmbM_NBC_White
+Added jmc STAG boats
+Added jmc STAG ATV
+Added cargo STAG_Clothing_Cargo_Pants
+Added cargo STAG_Clothing_CoyoteBag
+Added cargo STAG_Clothing_DryBag
+Added cargo STAG_Clothing_M65_Jacket
+Added cargo STAG_Clothing_MountainBag
+Added cargo and attaches STAG_Clothing_PlateCarrier
+Added cargo STAG_Clothing_Pouches
+Added cargo STAG_Clothing_Vest 
+Added attachments for M1025
+Ny Gift contents are enriched.
+And more....
+----------------types.xml-------------------------------
+Some Items within types.xml have as greater min than nominal
+////in Types need to be corrected for presence or unused ones removed "Defibrillator", "EngineOil" 
+Missing armor added and set Tier9
+Medicine now spawns in medical facilities, not in garages and barracks)
+added STAG_Teddybear_brown, STAG_Teddybear_black
+Added jmc STAG boats
+Added jmc STAG ATV
+Added M1025
+All armor moved to temple (need test)
+-----------------events.xml------cfgenvironment.xml-------
+Fixed the events of hares, foxes, reindeer...
+
+Restored the Christmas tree...need adjust
+Restored the Santacrash...need adjust
+Added M1025...
+changed to 1 piece "StaticSkeletonEventspawn", since there is only 1 spawn location
+-----------------cfgrandompresets.xml---------------------
+Updated Cargo For: toolsHunter, hatsVillage,hatsCity,bagsCityn,hatsIndustrial,bagsArmy...etc
+Added Cargo headtorches.
+Added in "ContaminatedCargo" chance 0,15 AntiChemInjector.
+Added to cargo "ammoCivil" ammo .357...
+Add to attachment "hatsArmy"  ZSh3PilotHelmet_Green, ZSh3PilotHelmet_Black...
+-------------------------- mapgroupproto.xml---------------------
+Recreated and updated mapgroupproto.xml (Cherno+Livonia+Sakhal+JMC DeerIsle Obj)!
+
+Fixed medical loot position in Land_City_Hospital (Spawn incorrect spawn in air)
+Fixed medical loot position in Land_MobileLaboratory (Spawn loot underground)
+Adjusted cord  Land_jmc_prisoncardtable for normal spawn "keycard"
+
+Temporary fixed Land_House_1W08_Blue (no loot grid)
+Added loot to Land_Wreck_Uaz (180 position) as Namalsk
+Added loot to Land_Wreck_V3S
+Added loot to Land_Wreck_Tractor
+Added loot to Land_Farm_Hopper
+
+Fixing Coordinates for spawn loot Land_jmc_cabin01 (Loot spwn on air!)
+Fixing Loot pos on Land_hut03 
+Land_Hruzdum - loot spawns on the 3rd floor, which cannot be accessed by an ordinary player just like that. (pos 3 floor disabled)
+Restore usage from castle (<usage name="Historical"/>)
+Restore usage from Lunapark (<usage name="Lunapark"/>)
+
+Removed loot grid from Land_misc_chickenCoop
+Added JMC object stubs.
+---------------------------mapgrouppos.xml-----------------------
+Recreated from updated mapgroupproto.xml...
+
+---------------------------cfgeventgroups.xml--------------------
+Patrial fixed (fewer errors in the console )
+
+
+-----------------------------------------------------------------
+
+
