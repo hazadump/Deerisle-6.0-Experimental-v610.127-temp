@@ -22906,8 +22906,8 @@
                 <proxy type="Sardines" pos="6.503906 1.241028 0.223633" rpy="0.000000 -48.407387 0.000000" dechance="0.05"/>
 		</dispatch>		
 		<dispatch dechance="1.000000">
-				<proxy type="FishingRod" pos="7.364991 1.413979 1.222656" rpy="22.999723 290.17 0.000000" dechance="0.05"/>
-                <proxy type="FishNetTrap" pos="6.750977 1.241028 -0.271484" rpy="0.000000 14.106868 0.000000" dechance="0.05"/>
+				<proxy type="FishingRod" pos="7.364991 1.413979 1.222656" rpy="22.999723 290.17 0.000000" dechance="0.065"/>
+                <proxy type="FishNetTrap" pos="6.750977 1.241028 -0.271484" rpy="0.000000 14.106868 0.000000" dechance="0.065"/>
                 <proxy type="Netting" pos="6.742188 1.290000 -0.644531" rpy="90.000000 0.000000 0.000000" dechance="0.05"/>
 				<proxy type="Hook" pos="7.490234 2.203694 1.245117" rpy="87.000168 102.430435 0.000000" dechance="0.05"/>
 				<proxy type="Jig" pos="7.458984 2.20 0.904297" rpy="90.000000 90.0 0.000000" dechance="0.05"/> 
@@ -22917,7 +22917,10 @@
 				<proxy type="SardinesCan" pos="-0.669922 1.853694 0.369141" rpy="0.000000 -90.266418 0.000000" dechance="0.05"/>
 				<proxy type="HuntingKnife" pos="-0.457022 1.873694 0.307941" rpy="-90.000000 180.000000 0.000000" dechance="0.05"/>
 				<proxy type="Binoculars" pos="-0.810005 1.967345 0.994049" rpy="0.000000 -0.000138 0.000000" dechance="0.05"/>
+				<proxy type="Apple" pos="-0.423340 1.844021 0.767578" rpy="0.000000 0.000000 0.000000" dechance="0.05"/>
 		</dispatch>
+
+
 		</group>
 
 	<group name="StaticObj_PatrolBoat_Military_DE" lootmax="15">
@@ -25346,11 +25349,16 @@
 			<point pos="-0.006407 0.469140 0.017200" range="0.409375" height="1.023438"/>
 		</container>
 	</group>
-	<group name="Land_jmc_prisoncardtable" lootmax="1"> <!--HaZ-->
-		<usage name="Special"/>
-		<category name="KMUCKeycard"/>
-		<container name="lootFloor" lootmax="1">
-			<point pos="0.0 0.37 0.0" range="0.35" height="1.0"/>
+	<group name="land_jmc_prisoncardtable" lootmax="1">
+		<usage name="Special" />
+		<container name="lootshelves" lootmax="1">
+			<category name="KMUCKeycard" />
+			<tag name="shelves" />
+			<point pos="0.000000 0.370000 0.000000" range="0.250000" height="0.300000" />
+			<point pos="0.165036 0.370000 -0.388771" range="0.250000" height="0.300000" />
+			<point pos="0.222353 0.370000 0.359077" range="0.250000" height="0.300000" />
+			<point pos="-0.149847 0.370000 -0.419154" range="0.250000" height="0.300000" />
+			<point pos="-0.119461 0.370000 0.386009" range="0.250000" height="0.300000" />
 		</container>
 	</group>
 	<group name="Land_jmc_briefcase_card" lootmax="1">			
