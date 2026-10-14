@@ -44,6 +44,10 @@ ZmbM_Gamedev_Gray - Sakhal 1.27
 
 
 ##========================================[ types.xml, types_di.xml ]========================================##
+refurbished
+Jmc_Keycard
+Jmc_Keycard2
+
 added
 Land_STAG_Submarine_Dark
 STAG_Clothing_BallisticHelmet_PT
@@ -248,7 +252,11 @@ StaticObj_Wreck_Stryker_DE
 
 Land_Sara_zluty_statek_in
 remove point <!-- <point pos="2.039331 3.219991 -2.324466" range="0.5" height="1.5"/> -->
+removed Land_Ruin_Highway_Pillar1_Garage
 
+refurbished
+land_jmc_prisoncardtable
+Land_jmc_lab_patienttable
 
 ##========================================[ Mapgrouppos.xml ]========================================##
 remove  
