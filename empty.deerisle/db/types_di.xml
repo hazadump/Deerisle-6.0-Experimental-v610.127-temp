@@ -1272,7 +1272,7 @@
 		<value name="Tier6"/>
 	</type>
 	<type name="Jmc_Keycard">
-		<nominal>50</nominal>
+		<nominal>1</nominal>
 		<lifetime>5600</lifetime>
 		<restock>1200</restock>
 		<min>1</min>
