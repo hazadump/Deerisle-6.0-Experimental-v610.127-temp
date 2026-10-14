@@ -25242,18 +25242,22 @@
 	</group>
 	<group name="Land_jmc_lab_patienttable" lootmax="4">
 		<usage name="Crypt"/>
-		<container name="lootFloor" lootmax="4">
-			<category name="weapons"/>
-			<tag name="floor"/>
-			<point pos="-0.077049 0.655980 0.237409" range="1.4" height="1.5"/>
-			<point pos="-0.177049 0.655980 0.537409" range="1.4" height="1.5"/>
-			<point pos="-0.077049 0.655980 0.037409" range="1.4" height="1.5"/>
+		<container name="lootshelves" lootmax="1">
+			<category name="KMUCKeycard" />
+			<tag name="shelves" />
+			<point pos="-0.734375 0.674304 0.436523" range="0.1100000" height="0.300000" />
+			<point pos="0.000976 0.656155 0.833008" range="0.1100000" height="0.300000" />
+			<point pos="0.009765 0.656155 -0.307617" range="0.1100000" height="0.300000" />
+			<point pos="0.000976 0.656155 0.266601" range="0.1100000" height="0.300000" />
 		</container>
-		<container name="lootweapons" lootmax="4">
+		<container name="lootFloor" lootmax="3">
+		<usage name="Military"/>
 			<category name="weapons"/>
-			<point pos="-0.077049 0.655980 0.237409" range="1.4" height="1.5"/>
-			<point pos="-0.177049 0.655980 0.537409" range="1.4" height="1.5"/>
-			<point pos="-0.077049 0.655980 0.037409" range="1.4" height="1.5"/>
+			<category name="explosives"/>
+			<tag name="floor" />
+			<point pos="-0.077049 0.655980 0.237409" range="0.5" height="1.0"/>
+			<point pos="-0.177049 0.655980 0.537409" range="0.5" height="1.0"/>
+			<point pos="-0.077049 0.655980 0.037409" range="0.5" height="1.0"/>
 		</container>
 	</group>
 	<group name="Land_jmc_lab_tablesmk" lootmax="4">
@@ -25349,7 +25353,7 @@
 			<point pos="-0.006407 0.469140 0.017200" range="0.409375" height="1.023438"/>
 		</container>
 	</group>
-	<group name="land_jmc_prisoncardtable" lootmax="1">
+	<group name="land_jmc_prisoncardtable" lootmax="1"> <!--Haz-->
 		<usage name="Special" />
 		<container name="lootshelves" lootmax="1">
 			<category name="KMUCKeycard" />
