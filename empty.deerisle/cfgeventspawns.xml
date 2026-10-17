@@ -2,6 +2,8 @@
 <eventposdef>
 	<event name="AmbientFox"/>
 	<event name="AmbientHare"/>
+	<event name="AmbientHen" />
+	<event name="AmbientLizard" />
 	<event name="AmbientDeer"/>
 	<event name="AmbientCow"/>
 	<event name="AmbientRoeDeer"/>
@@ -31,7 +33,7 @@
         <pos x="270.5156" z="13400.11" y="0" a="0"/>
         <pos x="16310.11" z="4856.013" y="0" a="0"/>
         <pos x="2439.516" z="11543.35" y="0" a="0"/>
-        <pos x="2069" z="13062.89" y="0" a="0"/>
+        <pos x="2069.000" z="13062.89" y="0" a="0"/>
         <pos x="3700.953" z="585.7192" y="0" a="0"/>
         <pos x="1028.219" z="3229.31" y="0" a="0"/>
         <pos x="11391.34" z="5661.426" y="0" a="0"/>
