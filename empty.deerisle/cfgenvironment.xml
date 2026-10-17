@@ -17,7 +17,7 @@
 		<file path="env/bear_territories.xml" />
 		<file path="env/hare_territories.xml" />
 		<file path="env/fox_territories.xml" />
-
+		<file path="env/monitor_territories.xml" />
 		<file path="env/arcticwolf_territories.xml" />		<!--JMC -->
 		<file path="env/polarbear_territories.xml" />		<!--JMC -->
 
@@ -86,7 +86,18 @@
 			</agent>
 			<item name="zoneTouchDisableEditPeriodSec" val="450" />
 		</territory>
-		
+		<!-- Lizard -->
+		<territory type="Ambient" name="AmbientLizard" behavior="DZAmbientLifeGroupBeh">
+			<file usable="monitor_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_VaranusGriseus" chance="1" />
+			</agent>
+			<agent type="Female" chance="1">
+				<spawn configName="Animal_VaranusGriseus" chance="1" />
+			</agent>
+			<item name="zoneTouchDisableEditPeriodSec" val="450" />
+		</territory>		
 		<!-- INFECTED -->
 		<territory type="Herd" name="ZombieTest" behavior="DZdomesticGroupBeh">
 			<file usable="zombie_territories" />
