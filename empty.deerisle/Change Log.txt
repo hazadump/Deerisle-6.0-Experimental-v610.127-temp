@@ -33,6 +33,7 @@ added
 ##========================================[ events.xml ]========================================##
 added
 
+Land_Mil_ContainerHabitat_Armory_Locked_Green_DE - badlands 1.30
 VehicleMotorbike - Badlands 1.29
 
 InfectedTemple - JMC
@@ -44,7 +45,9 @@ ZmbM_Gamedev_Gray - Sakhal 1.27
 
 
 ##========================================[ types.xml, types_di.xml ]========================================##
-refurbished
+
+Refurbished
+
 Jmc_Keycard
 Jmc_Keycard2
 
@@ -61,17 +64,127 @@ Land_Wreck_Offroad02_Aban2_TK_DE
 Land_Wreck_Offroad02_Medic_TK_DE
 
 
+Land_Container_1Moh_ION_DE
+Land_Mil_ContainerHabitat_Armory_Locked_Green_DE
+
+NBCPack_Grey
+NBCPack_White
+NBCPack_Yellow
+
+Lassi_Mango
+Lassi_Masala
+Lassi_Mint
+
+
+
+
+
+Achar
+Akinaka
+Ayran
+AyranBottle
+Figs
+Jambiya
+Luger
+LeeEnfield
+
+Mag_LeeEnfield_10Rnd
+Mag_Luger_8Rnd
+MP18
+Mag_MP18_Drum32Rnd
+HalvaCan
+HalvaCan_Opened
+P1907_Bayonet
+PoliceBaton
+SaltyMix
+SarmaCan
+SarmaCan_Opened
+AKM_Gold
+AK_WoodBttstck_Gold
+AK_WoodHndgrd_Gold
+Magnum_Gold
+Mag_AKM_30Rnd_Gold
+Mag_AKM_Drum75Rnd_Gold
+SawedoffMagnum_Gold
+
+ChestRigVest_Khaki
+ChestRigVest_Olive
+ChestRigVest_Tan
+
+
+Scimitar
+ShippingContainerKeys_Green
+
+SmallGlassBottle_Afza
+SmallGlassBottle_Jallab
+SodaCan_Takola
+SodaCan_ZumZam
+SpicyCrackers
+WineBottle
+Waterskin_Natural
+
+CoyoteBag_Desert
+DonerKnife
+DustGoggles_Black
+DustGoggles_Transparent
+BoonieHat_Desert
+AssaultBag_Desert
+Animal_VaranusGriseus
+Animal_OvisGmelini
+LizardKnifeSheath
+LeatherHipPack_Lizard
+LeatherBelt_Lizard
+DeadLizard
+
+Animal_CanisFamiliaris_GermanShepherd_Skinny
+Animal_CanisFamiliaris_GermanShepherd_Harness
+Animal_CanisFamiliaris_GermanShepherd_Bloody
+Animal_CanisFamiliaris_GermanShepherd_Balding
+Animal_CanisFamiliaris_Dobermann_Vest
+Animal_CanisFamiliaris_Dobermann_Skinny
+Animal_CanisFamiliaris_Dobermann_Brown
+Animal_CanisFamiliaris_Dobermann_Bloody
+Animal_CanisFamiliaris_Dobermann_Bald
+
+
+
+
+
+
+SKS_Black
+SKS_Desert
+SKS_Green
+SKS_Winter
+SKS_Woodland
+
+
 Glock19_Tan
 CZ527_desert
 CZ527_winter
+CZ527_Black
+CZ527_Woodland
+
+
 Mosin9130_Winter
 Mosin9130_Desert
 Mosin9130_Woodland
 
-
+SCARL
+SCARL_Black
 
 Mag_SCARH_20Rnd
 Mag_SCARH_20Rnd_Black
+
+FNOJacket
+FNOPants
+
+PakolHat_Beige
+PakolHat_Black
+PakolHat_Brown
+PakolHat_Grey
+PakolHat_White
+
+
 
 MilitaryCap_BDU
 MilitaryCap_Desert
@@ -128,6 +241,20 @@ Motorbike_02_Wheel_1_Ruined
 Motorbike_02_Wheel_2
 Motorbike_02_Wheel_2_Ruined
 Motorbike_02_Yellow
+
+Offroad_02_Beige
+Offroad_02_Door_1_1_Beige
+Offroad_02_Door_1_1_BeigeRust
+Offroad_02_Door_1_2_Beige
+Offroad_02_Door_1_2_BeigeRust
+Offroad_02_Door_2_1_Beige
+Offroad_02_Door_2_1_BeigeRust
+Offroad_02_Door_2_2_Beige
+Offroad_02_Door_2_2_BeigeRust
+Offroad_02_Hood_Beige
+Offroad_02_Trunk_Beige
+Offroad_02_Trunk_BeigeRust
+
 
 
 JMC_Key_Blue
@@ -241,6 +368,8 @@ InfectedFirefighter 6301 x 15486
 
 ##========================================[ Mapgroupproto.xml ]========================================##
 added
+Land_Container_1Moh_ion
+Land_Container_1Moh_ion_DE
 
 Land_Wreck_Offroad02_Aban1_TK_DE
 Land_Wreck_Offroad02_Aban2_TK_DE
