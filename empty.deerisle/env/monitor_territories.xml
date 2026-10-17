@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<territory-type>
+  <territory color="4291376549">
+    <zone name="Zone_Monitor" smin="0" smax="0" dmin="0" dmax="2" x="1328" z="14808" r="50" />
+    <zone name="Zone_Monitor" smin="0" smax="0" dmin="0" dmax="2" x="1060" z="14740" r="50" />
+    <zone name="Zone_Monitor" smin="0" smax="0" dmin="0" dmax="2" x="1660" z="14800" r="50" />
+    <zone name="Zone_Monitor" smin="0" smax="0" dmin="0" dmax="2" x="568" z="12756" r="50" />
+    <zone name="Zone_Monitor" smin="0" smax="0" dmin="0" dmax="2" x="1635" z="11300" r="65" />
+    <zone name="Zone_Monitor" smin="0" smax="0" dmin="0" dmax="2" x="2600" z="12130" r="65" />
+  </territory>
+</territory-type>
