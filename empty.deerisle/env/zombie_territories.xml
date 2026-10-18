@@ -54,6 +54,16 @@
 		<zone name="InfectedVillage" smin="0" smax="0" dmin="7" dmax="13" x="13770.7" z="3904" r="80" />
 		<zone name="InfectedVillage" smin="0" smax="0" dmin="7" dmax="13" x="12552" z="3744" r="80" />
 	</territory>
+	<territory color="2575065676">
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="1663.6364" z="11274.5455" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="2022.8571" z="12317.1429" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="3165.1111" z="10670.1111" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="2694.1111" z="11076.1111" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="3088.5714" z="13467.1429" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="3697.1429" z="13605.7143" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="3401.3333" z="13673.3333" r="80" />
+		<zone name="InfectedVillageTaki" smin="0" smax="0" dmin="4" dmax="6" x="10035.6811" z="1145.7811" r="80" />
+	</territory>
 	<territory color="1291845632">
 	<!--JMC-->
 		<zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="3546.1" z="6322.63" r="50" />
