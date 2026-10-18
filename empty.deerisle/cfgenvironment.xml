@@ -17,7 +17,8 @@
 		<file path="env/bear_territories.xml" />
 		<file path="env/hare_territories.xml" />
 		<file path="env/fox_territories.xml" />
-		<file path="env/monitor_territories.xml" />
+		<file path="env/monitor_territories.xml" />			<!-- Badlands-->
+		<file path="env/dobermann_shepherd_territories.xml" /><!-- Badlands-->
 		<file path="env/arcticwolf_territories.xml" />		<!--JMC -->
 		<file path="env/polarbear_territories.xml" />		<!--JMC -->
 
@@ -40,6 +41,10 @@
 		<!-- Arctic Wolf -->		
 		<territory type="Herd" name="ArcticWolf" behavior="DZWolfGroupBeh">
 			<file usable="arcticwolf_territories" />
+		</territory>
+		<!--Doberman-->
+		<territory type="Herd" name="Dog" behavior="DZDogGroupBeh">
+			<file usable="dobermann_shepherd_territories" />
 		</territory>
 		<!-- HEN -->
 		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">

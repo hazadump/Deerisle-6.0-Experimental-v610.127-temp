@@ -4,6 +4,7 @@
 	<event name="AmbientHare"/>
 	<event name="AmbientHen" />
 	<event name="AmbientLizard" />
+	<event name="AnimalDog" />
 	<event name="AmbientDeer"/>
 	<event name="AmbientCow"/>
 	<event name="AmbientRoeDeer"/>

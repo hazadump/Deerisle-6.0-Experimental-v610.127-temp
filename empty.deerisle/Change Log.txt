@@ -8,9 +8,7 @@
 
 
 
-
-
-Date 12.10.2026 
+Date 18.10.2026 
 ## version 610.127
 Release notes:
 This update based on Mission files Deerisle Exp 6.1 August Update 2
@@ -33,11 +31,20 @@ added
 ##========================================[ events.xml ]========================================##
 added
 
+AnimalDog
+
 Land_Mil_ContainerHabitat_Armory_Locked_Green_DE - badlands 1.30
 VehicleMotorbike - Badlands 1.29
 
 InfectedTemple - JMC
 InfectedArmyDesert - Badlands 1.29
+
+
+InfectedCityTaki
+InfectedIndustrialTaki
+InfectedSolitudeTaki
+InfectedVillageTaki
+
 
 ZmbM_Gamedev_Black - Sakhal 1.27
 ZmbM_Gamedev_Blue - Sakha 1.27
@@ -359,12 +366,16 @@ jmc_Prototype_Black + jmc_Prototype_Mag_20Rnd + jmc_Prototype_Optic_Back
 
 ##========================================[ zombie_territories.xml ]========================================##
 
-This file has bin refubrished as BI standart....
-
 added 
 InfectedFirefighter 6301 x 15486
+monitor_territories.xml (Lizard)
+AnimalDog
+InfectedVillageTaki
 
-
+##========================================[ cfgenvironment.xml ]========================================##
+add 
+Lizard
+Dog
 
 ##========================================[ Mapgroupproto.xml ]========================================##
 added
