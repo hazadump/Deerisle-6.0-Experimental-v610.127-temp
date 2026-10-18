@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+	<event name="AnimalDog"> <!-- Badlands 130 -->
+        <nominal>8</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_Dobermann_Bald"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_Dobermann_Bloody"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_Dobermann_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_Dobermann_Skinny"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_Dobermann_Vest"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_GermanShepherd_Balding"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_GermanShepherd_Bloody"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_GermanShepherd_Harness"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CanisFamiliaris_GermanShepherd_Skinny"/>
+        </children>
+    </event>
 	<event name="AmbientFox">
 		<nominal>10</nominal>
 		<min>10</min>
@@ -88,7 +113,7 @@
 			<child lootmax="0" lootmin="0" max="1" min="1" type="Animal_Polarbear"/>
 		</children>
 	</event>
-    <event name="AmbientLizard">
+    <event name="AmbientLizard"> <!-- badlands 130 -->
         <nominal>0</nominal>
         <min>0</min>
         <max>30</max>
@@ -516,6 +541,62 @@
 			<child lootmax="5" lootmin="0" max="0" min="8" type="ZmbM_SkaterYoung_Blue"/>
 		</children>
 	</event>
+
+    <event name="InfectedCityTaki"> <!-- Badlands 130-->
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanA_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanA_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanA_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanA_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Flowers"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Olive"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Orange"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Pink"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Purple"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanB_Yellow"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanC_NavyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanC_Olive"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanC_Orange"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanC_Pink"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanC_Purple"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanC_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanD_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanD_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanD_Purple"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiCitizenUrbanD_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanA_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanA_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanA_Cream"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanA_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_BlueBright"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_NavyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_SkyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_White"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanC_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanC_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanC_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanC_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanC_White"/>
+        </children>
+    </event>
 	<event name="InfectedFirefighter">
 		<nominal>50</nominal>
 		<min>25</min>
@@ -576,6 +657,28 @@
 			<child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_OffshoreWorker_Yellow"/>
 		</children>
 	</event>
+    <event name="InfectedIndustrialTaki"> <!--Badlands 130 -->
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_takiOilRigWorker_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiOilRigWorker_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_takiOilRigWorker_Yellow"/>
+            <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbM_takiOilRigWorker_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiOilRigWorker_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiOilRigWorker_Yellow"/>
+        </children>
+    </event>	
 	<event name="InfectedMedic">
 		<nominal>50</nominal>
 		<min>25</min>
@@ -763,6 +866,30 @@
 			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HunterOld_Winter"/>
 		</children>
 	</event>
+	<event name="InfectedSolitudeTaki"> <!--Badlands 130 -->
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="13" type="ZmbM_takiHermitA_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="12" type="ZmbM_takiHermitA_NavyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="12" type="ZmbM_takiHermitB_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="12" type="ZmbM_takiHermitB_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="13" type="ZmbM_takiHiker_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="13" type="ZmbM_takiHiker_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="12" type="ZmbM_takiHiker_NavyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="13" type="ZmbM_takiHiker_White"/>
+        </children>
+    </event>
 	<event name="InfectedVillage">
 		<nominal>50</nominal>
 		<min>25</min>
@@ -811,6 +938,37 @@
 			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_VillagerOld_Green"/>
 		</children>
 	</event>
+    <event name="InfectedVillageTaki"> <!-- Badlands 130 -->
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Flowers"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Olive"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Orange"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Pink"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Purple"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_takiCitizenRural_Yellow"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_takiCitizenRural_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_takiCitizenRural_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_takiCitizenRural_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_takiCitizenRural_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbM_takiCitizenRural_NavyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbM_takiCitizenRural_SkyBlue"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_takiCitizenRural_White"/>
+        </children>
+    </event>	
 	<event name="ItemPlanks">
 		<nominal>20</nominal>
 		<min>10</min>
@@ -828,7 +986,7 @@
 			<child lootmax="0" lootmin="0" max="50" min="30" type="PileOfWoodenPlanks"/>
 		</children>
 	</event>
-	<event name="StaticMiscTirePileBurning">		<!-- Antoine sakhal v1.28-->
+	<event name="StaticMiscTirePileBurning"> <!-- Antoine sakhal v1.28-->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -967,7 +1125,7 @@
 			<child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Yellow_DE"/>
 			<child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Red_DE"/>
 			<child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Orange_DE"/>
-			<child lootmax="8" lootmin="4" max="10" min="10" type="Land_Mil_ContainerHabitat_Armory_Locked_Green_DE"/>
+<!--			<child lootmax="8" lootmin="4" max="10" min="10" type="Land_Mil_ContainerHabitat_Armory_Locked_Green_DE"/> -->
 		</children>
 	</event>
 	<event name="StaticFridgeTest">
@@ -1213,7 +1371,7 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="Boat_01_Orange"/>
 		</children>
 	</event>
-	<event name="VehicleBoatSTAG">
+	<event name="VehicleBoatSTAG"> <!-- JMC -->
 		<nominal>2</nominal>
 		<min>1</min>
 		<max>2</max>
@@ -1363,7 +1521,7 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
 		</children>
 	</event>
-	<event name="StaticVanPinkies">
+	<event name="StaticVanPinkies"> <!-- JMC -->
 		<nominal>2</nominal>
 		<min>2</min>
 		<max>2</max>
@@ -1380,7 +1538,7 @@
 			<child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_van_pinkies"/>
 		</children>
 	</event>
-	<event name="StaticVanAmbulance">		<!-- JMC -->
+	<event name="StaticVanAmbulance"> <!-- JMC -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -1398,7 +1556,7 @@
 			<child lootmax="6" lootmin="4" max="10" min="10" type="Land_jmc_van_ambulance"/>
 		</children>
 	</event>
-	<event name="StaticAmbulance">		<!-- Sakhal V 1.28 -->
+	<event name="StaticAmbulance"> <!-- Sakhal V 1.28 -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -1507,7 +1665,7 @@
 			<child lootmax="1" lootmin="1" max="6" min="4" type="Land_jmc_plant_fern_c"/>
 		</children>
 	</event>
-	<event name="StaticSurvivorCamps">
+	<event name="StaticSurvivorCamps"> <!-- JMC -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -1523,7 +1681,7 @@
 		<active>1</active>
 		<children/>
 	</event>
-	<event name="StaticConvoys">
+	<event name="StaticConvoys"> <!-- JMC -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -1590,7 +1748,7 @@
 			<child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
 		</children>
 	</event>
-	<event name="StaticBoatFishing"> 		<!-- Sakhal V 1.28 -->
+	<event name="StaticBoatFishing"> <!-- Sakhal V 1.28 -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>3</max>
@@ -1607,7 +1765,7 @@
 			<child lootmax="8" lootmin="5" max="15" min="15" type="Land_Boat_Small9_DE"/>
 		</children>
 	</event>
-	<event name="StaticBoatMilitary">		<!-- Sakhal V 1.28 -->
+	<event name="StaticBoatMilitary"> <!-- Sakhal V 1.28 -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>3</max>
@@ -1624,7 +1782,7 @@
 			<child lootmax="8" lootmin="5" max="15" min="15" type="StaticObj_PatrolBoat_Military_DE"/>
 		</children>
 	</event>
-	<event name="VehicleATVCivil">
+	<event name="VehicleATVCivil"> <!-- JMC -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -1646,7 +1804,7 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_Pink"/>
 		</children>
 	</event>
-	<event name="VehicleATVSTAG">
+	<event name="VehicleATVSTAG"> <!-- JMC -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
@@ -1665,7 +1823,7 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_STAG_Black"/>
 		</children>
 	</event>
-	<event name="VehicleRFMosquito">
+	<event name="VehicleRFMosquito"> <!-- JMC -->
 		<nominal>1</nominal>
 		<min>1</min>
 		<max>1</max>
