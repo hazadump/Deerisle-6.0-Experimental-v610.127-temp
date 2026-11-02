@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eventgroupdef>    
+	<!--<pos x="8658.34" z="8736.36" a="0" y="5.16638" group="Camp_01"/>-->
     <group name="Camp_01">			
 		<child type="Land_jmc_ce_oven" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="0.000" z="0.000" a="21.916" y="0.000"/>
 		<child type="Land_jmc_ce_box2" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="3.842" z="2.764" a="209.359" y="0.200"/>
