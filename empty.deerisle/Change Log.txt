@@ -322,6 +322,11 @@ GunCase_Black
 GunCase_Orange	
 GunCase_White	
 
+GhillieAtt_Desert
+GhillieBushrag_Desert
+GhillieHood_Desert
+GhillieSuit_Desert
+GhillieTop_Desert
 
 
 JMC_Key_Blue
