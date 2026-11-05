@@ -370,6 +370,11 @@ fix class name Static_FrozenScientist_DE shoult be  <type name="StaticObj_Frozen
 
 added
 InfectedTemple
+ 
+ Wreck_Mi8_Crashed   <pos x="4806.984" z="8227.021" a="0"/> moved to ="4811.908" z="8205.604"
+		
+
+
 
 ##========================================[ cfggameplay.json ]========================================##
 
