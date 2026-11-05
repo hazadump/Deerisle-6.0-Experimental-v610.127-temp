@@ -584,7 +584,7 @@
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanA_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Beige"/>
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Black"/>
-            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_BlueBright"/>
+<!--             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_BlueBright"/> do not exist -->
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_Grey"/>
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_takiCitizenUrbanB_NavyBlue"/>
@@ -1108,9 +1108,9 @@
 		</children>
 	</event>
 	<event name="StaticContainerLocked"> <!-- Sakhal 128, badlands 130 -->
-		<nominal>1</nominal>
-		<min>1</min>
-		<max>1</max>
+		<nominal>3</nominal>
+		<min>3</min>
+		<max>3</max>
 		<lifetime>2400</lifetime>
 		<restock>0</restock>
 		<saferadius>500</saferadius>
@@ -1178,9 +1178,9 @@
 		<children/>
 	</event>
 	<event name="StaticPoliceCar">
-		<nominal>2</nominal>
-		<min>2</min>
-		<max>2</max>
+		<nominal>3</nominal>
+		<min>3</min>
+		<max>3</max>
 		<lifetime>1200</lifetime>
 		<restock>0</restock>
 		<saferadius>500</saferadius>
@@ -1372,9 +1372,9 @@
 		</children>
 	</event>
 	<event name="VehicleBoatSTAG"> <!-- JMC -->
-		<nominal>2</nominal>
-		<min>1</min>
-		<max>2</max>
+		<nominal>3</nominal>
+		<min>2</min>
+		<max>3</max>
 		<lifetime>6000</lifetime>
 		<restock>0</restock>
 		<saferadius>500</saferadius>
@@ -1402,7 +1402,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>fixed</position>
 		<limit>mixed</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Black"/>
@@ -1410,9 +1410,9 @@
 		</children>
 	</event>
     <event name="VehicleMotorbike">
-        <nominal>5</nominal>
-        <min>4</min>
-        <max>5</max>
+        <nominal>8</nominal>
+        <min>8</min>
+        <max>8</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1522,9 +1522,9 @@
 		</children>
 	</event>
 	<event name="StaticVanPinkies"> <!-- JMC -->
-		<nominal>2</nominal>
-		<min>2</min>
-		<max>2</max>
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
 		<lifetime>2500</lifetime>
 		<restock>0</restock>
 		<saferadius>500</saferadius>
@@ -1749,8 +1749,8 @@
 		</children>
 	</event>
 	<event name="StaticBoatFishing"> <!-- Sakhal V 1.28 -->
-		<nominal>1</nominal>
-		<min>1</min>
+		<nominal>3</nominal>
+		<min>3</min>
 		<max>3</max>
 		<lifetime>2700</lifetime>
 		<restock>0</restock>
@@ -1766,8 +1766,8 @@
 		</children>
 	</event>
 	<event name="StaticBoatMilitary"> <!-- Sakhal V 1.28 -->
-		<nominal>1</nominal>
-		<min>1</min>
+		<nominal>3</nominal>
+		<min>3</min>
 		<max>3</max>
 		<lifetime>2700</lifetime>
 		<restock>0</restock>
@@ -1783,9 +1783,9 @@
 		</children>
 	</event>
 	<event name="VehicleATVCivil"> <!-- JMC -->
-		<nominal>1</nominal>
-		<min>1</min>
-		<max>1</max>
+		<nominal>2</nominal>
+		<min>2</min>
+		<max>2</max>
 		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<saferadius>500</saferadius>
@@ -1805,9 +1805,9 @@
 		</children>
 	</event>
 	<event name="VehicleATVSTAG"> <!-- JMC -->
-		<nominal>1</nominal>
-		<min>1</min>
-		<max>1</max>
+		<nominal>2</nominal>
+		<min>2</min>
+		<max>2</max>
 		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<saferadius>500</saferadius>
