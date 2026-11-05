@@ -169,7 +169,7 @@ ZmbM_takiCitizenRural_Grey
 ZmbM_takiCitizenRural_NavyBlue
 ZmbM_takiCitizenRural_SkyBlue
 ZmbM_takiCitizenRural_White
-
+/// ZmbM_takiCitizenUrbanB_BlueBright  (problem do not exist)
 
 
 
@@ -470,6 +470,10 @@ Dog
 
 ##========================================[ Mapgroupproto.xml ]========================================##
 added
+
+Land_Mil_ContainerHabitat_Armory_Locked_Green_DE
+
+
 Land_Container_1Moh_ion
 Land_Container_1Moh_ion_DE
 
