@@ -8,7 +8,7 @@
 
 
 
-Date 18.10.2026 
+Date 05.11.2026 
 ## version 610.127
 Release notes:
 This update based on Mission files Deerisle Exp 6.1 August Update 2
@@ -78,13 +78,14 @@ NBCPack_Grey
 NBCPack_White
 NBCPack_Yellow
 
+
+
+
 Lassi_Mango
 Lassi_Masala
 Lassi_Mint
 
-
-
-
+DigitalCodeLock
 
 Achar
 Akinaka
@@ -153,7 +154,21 @@ Animal_CanisFamiliaris_Dobermann_Brown
 Animal_CanisFamiliaris_Dobermann_Bloody
 Animal_CanisFamiliaris_Dobermann_Bald
 
-
+ZmbF_takiCitizenRural_Yellow
+ZmbF_takiCitizenRural_Black
+ZmbF_takiCitizenRural_Flowers
+ZmbF_takiCitizenRural_Olive
+ZmbF_takiCitizenRural_Orange
+ZmbF_takiCitizenRural_Pink
+ZmbF_takiCitizenRural_Purple
+ZmbF_takiCitizenRural_Red
+ZmbM_takiCitizenRural_Beige		
+ZmbM_takiCitizenRural_Black		
+ZmbM_takiCitizenRural_Brown		
+ZmbM_takiCitizenRural_Grey		
+ZmbM_takiCitizenRural_NavyBlue
+ZmbM_takiCitizenRural_SkyBlue
+ZmbM_takiCitizenRural_White
 
 
 
@@ -176,6 +191,12 @@ Mosin9130_Winter
 Mosin9130_Desert
 Mosin9130_Woodland
 
+SawedoffMosin9130_Desert	
+SawedoffMosin9130_Winter	
+SawedoffMosin9130_Woodland
+
+
+
 SCARL
 SCARL_Black
 
@@ -191,7 +212,37 @@ PakolHat_Brown
 PakolHat_Grey
 PakolHat_White
 
+SandalsShoes_Black	 
+SandalsShoes_BlueNavy
+SandalsShoes_Brown	 
+SandalsShoes_Grey   	
 
+
+
+
+ShortSleeveShirt_Black
+ShortSleeveShirt_BlueRectangles
+ShortSleeveShirt_CreamSquares
+ShortSleeveShirt_Green
+ShortSleeveShirt_Hawaiian_Black
+ShortSleeveShirt_Hawaiian_Blue
+ShortSleeveShirt_Hawaiian_White
+ShortSleeveShirt_Waves
+ShortSleeveShirt_White
+
+
+
+UKAssVest_Desert
+MilitaryBeret_TK
+
+LinenVest_Black
+LinenVest_Brown
+LinenVest_DarkGrey
+LinenVest_Green
+LinenVest_Grey
+LinenVest_NavyBlue
+
+PoliceShortSleeveShirt
 
 MilitaryCap_BDU
 MilitaryCap_Desert
@@ -263,6 +314,15 @@ Offroad_02_Trunk_Beige
 Offroad_02_Trunk_BeigeRust
 
 
+GunCaseKeys_Blue	
+GunCaseKeys_Orange	
+GunCaseKeys_Red	
+
+GunCase_Black	
+GunCase_Orange	
+GunCase_White	
+
+
 
 JMC_Key_Blue
 JMC_Key_Orange
@@ -301,9 +361,6 @@ STAG_Crossbow
 fix class name Static_FrozenScientist_DE shoult be  <type name="StaticObj_FrozenScientist_DE">
 
 
-
-
-
 ##========================================[ cfgeventspawn.xml ]========================================##
 
 added
@@ -339,6 +396,35 @@ ttbar - Mag_FAL_20Rnd
 
 added 
 
+AKM_Gold
+
+LeeEnfield
+
+SKS_Black
+SKS_Desert
+SKS_Winter
+SKS_Woodland
+
+CZ527_Black
+CZ527_Woodland
+CZ527_desert
+CZ527_winter
+
+Mosin9130_Black
+Mosin9130_Desert
+Mosin9130_Winter
+Mosin9130_Woodland
+
+
+SCARH
+SCARH_Black
+SCARL
+SCARL_Black
+
+NBCPack_Grey
+NBCPack_White
+NBCPack_Yellow
+
 
 Motorbike_01_Blue
 Motorbike_01_Red
@@ -348,6 +434,8 @@ Motorbike_02_Green
 Motorbike_02_Red
 Motorbike_02_Yellow
 
+Offroad_02_Beige
+ShippingContainerKeys_Green
 
 attachments  PlateCarrierVest
 remove dup 	<type name="junkak">
@@ -363,6 +451,9 @@ ZmbF_usSoldier_normal_Desert
 jmc_SnowOwl_Black + jmc_SnowOwl_Mag_20Rnd
 
 jmc_Prototype_Black + jmc_Prototype_Mag_20Rnd + jmc_Prototype_Optic_Back
+
+
+etc...
 
 ##========================================[ zombie_territories.xml ]========================================##
 
